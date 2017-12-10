@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ForGit Something?></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <img src="images/logo.png">
+      <a href="index.html" target="_blank">Home</a>
+      <a href="Command.html" target="_blank">Command</a>
+      <a href="forms.html" target="_blank">Forms</a>
+      <a href="css3.html" target="_blank">CSS3</a>
+      <a href="git.html" target="_blank">Git</a>
+    </nav>
+    <header>
+      <h1 class="headline"> Things I ForGit</h1>
+    </header>
+  <body>
+    <h2>Review</h2>
+    <p>Git is a Distributed Version Control System. It allows teammates to work
+      on the same files and have a central place to store those files. Teammates
+      can pull from the DVCS, make their changes and then push them back to the
+      central storage place. This makes making the sites easy to differentiate
+       and, as long as teammates store the most recent files, easy to update.</p>
+    <p>As linked on the home page there is a list of git commands that should
+      be reviewed. That <a id="command" href="https://gist.github.com/barnes7td/04624e4a25751578662d6306b7cb8529" target="_blank">
+        link </a> is here.</p>
+    <p>However the more difficult ones are here. They are as follows:</p>
+    <h2>Unstaging a commit</h2>
+    <p>git reset HEAD (filename).txt</p>
+    <h2>Skip staging and Commit</h2>
+    <p>git commit -a -m "command"</p>
+    <h2>Adding to a Previous Commit</h2>
+    <p>git commit --ammend -m "command"</p>
+    <h2>Pulling Last Commit</h2>
+    <p>git reset --soft HEAD^</p>
+    <h2>Skipping Staging and Commit</h2>
+    <p>git commit -a -m "modify"</p>
+    <h2>Creating a new branch</h2>
+    <p>git branch (name)</p>
+    <h2>Create branch and checkout</h2>
+    <p>git checkout -b (branch-name)</p>
+    <h2>Deleting remote branch</h2>
+    <p>git push origin :(filename)</p>
+    <h2>Clean up remote branches</h2>
+    <p>git remote prune (origin or other name)</p>
+    <h2>Rebase</h2>
+    <p>This is a type of merge and merge commit. This may help.</p>
+    <p>git fetch and git rebase</p>
+    <footer>
+      <a href="index.html" target="_blank">Home</a>
+      <a href="Command.html" target="_blank">Commandments</a>
+      <a href="forms.html" target="_blank">Forms</a>
+      <h4>© Trish Reedy 2017</h4>
+    </footer>
+  </body>
+</html>
